@@ -19,7 +19,7 @@ Uma aventura de jogo 2D construída com **Pygame** em Python, apresentando um si
   - WASD para movimento
   - ARROW KEYS para atirar em 4 direções
 
-## 📁 Estrutura do Projeto (Profissional)
+## 📁 Estrutura do Projeto
 
 ```
 ProjetoPythonFacul/
@@ -121,31 +121,7 @@ python -m pytest tests/
 ✅ Sem bugs encontrados
 ✅ Estrutura profissional
 
-## 🎵 Música de Fundo
 
-O jogo inclui suporte para música de fundo inspirada em Final Fantasy clássico!
-
-### Como Adicionar Música:
-
-1. **Baixe uma música** no estilo Final Fantasy (mais calma):
-   - "Prelude" de Final Fantasy VI
-   - "Terra's Theme" de Final Fantasy VI  
-   - "Final Fantasy Main Theme" (versão orquestral calma)
-
-2. **Salve o arquivo** como `final_fantasy_theme.mp3` na pasta:
-   ```
-   assets/sounds/final_fantasy_theme.mp3
-   ```
-
-3. **Formatos suportados**:
-   - MP3 (recomendado)
-   - OGG
-   - WAV
-
-### Controles da Música:
-- **M**: Pausar/retomar música durante o jogo
-- A música toca automaticamente em loop quando o jogo inicia
-- Volume padrão: 30% (pode ser ajustado no código)
 
 ### Nota Técnica:
 A música é carregada via `pygame.mixer` e toca em loop infinito com volume reduzido para não interferir na jogabilidade. Os módulos `pygame.font` e `pygame.mixer` são inicializados explicitamente após a criação da janela para garantir compatibilidade.
