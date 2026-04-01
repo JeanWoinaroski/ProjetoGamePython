@@ -119,7 +119,7 @@ python -m pytest tests/
 
 ✅ Completo e funcional
 ✅ Sem bugs encontrados
-✅ Estrutura profissional
+
 
 
 
